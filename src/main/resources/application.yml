@@ -1,0 +1,14 @@
+server:
+  port: 8089
+  servlet:
+    path: /
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/day01
+    username: root
+    password: abc123
+  thymeleaf:
+    cache: false
+mybatis:
+  type-aliases-package: com.hopu.entity
